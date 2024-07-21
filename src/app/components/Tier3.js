@@ -25,15 +25,16 @@ const Tier3 = () => {
 
         <ul className='mt-[0.75rem] text-[0.75rem] text-[#b8b8b8] flex flex-col gap-[0.5rem]'>
           <li className='flex  items-center gap-[0.5rem]'>
-            <Image src={checkmark} className='w-[1rem]'></Image>Own your data
+            <Image src={checkmark} className='w-[1rem]' alt='checkmark'></Image>
+            Own your data
           </li>
           <li className='flex  items-center gap-[0.5rem]'>
-            <Image src={checkmark} className='w-[1rem]'></Image>
+            <Image src={checkmark} className='w-[1rem]' alt='checkmark'></Image>
             Censorship-resistant
           </li>
           <li className='flex  items-center gap-[0.5rem]'>
-            <Image src={checkmark} className='w-[1rem]'></Image>Decentralized
-            social media
+            <Image src={checkmark} className='w-[1rem]' alt='checkmark'></Image>
+            Decentralized social media
           </li>
         </ul>
       </div>

@@ -28,15 +28,16 @@ const Tier2 = () => {
 
         <ul className='mt-[0.75rem] text-[0.75rem] text-[#b8b8b8] flex flex-col gap-[0.5rem]'>
           <li className='flex  items-center gap-[0.5rem]'>
-            <Image src={checkmark} className='w-[1rem]'></Image>Supercharged
-            tools
+            <Image src={checkmark} className='w-[1rem]' alt='checkmark'></Image>
+            Supercharged tools
           </li>
           <li className='flex  items-center gap-[0.5rem]'>
-            <Image src={checkmark} className='w-[1rem]'></Image>Personalized
-            guidance
+            <Image src={checkmark} className='w-[1rem]' alt='checkmark'></Image>
+            Personalized guidance
           </li>
           <li className='flex  items-center gap-[0.5rem]'>
-            <Image src={checkmark} className='w-[1rem]'></Image>Market insights
+            <Image src={checkmark} className='w-[1rem]' alt='checkmark'></Image>
+            Market insights
           </li>
         </ul>
       </div>

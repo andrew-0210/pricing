@@ -27,15 +27,16 @@ const Tier1 = () => {
         <div className='bg-[#363636] w-full h-[1px] mt-3' />
         <ul className='mt-[0.75rem] text-[0.75rem] text-[#b8b8b8] flex flex-col gap-[0.5rem]'>
           <li className='flex  items-center gap-[0.5rem]'>
-            <Image src={checkmark} className='w-[1rem]'></Image>Seamless
-            integration
+            <Image src={checkmark} className='w-[1rem]' alt='checkmark'></Image>
+            Seamless integration
           </li>
           <li className='flex  items-center gap-[0.5rem]'>
-            <Image src={checkmark} className='w-[1rem]'></Image>Enhanced privacy
+            <Image src={checkmark} className='w-[1rem]' alt='checkmark'></Image>
+            Enhanced privacy
           </li>
           <li className='flex  items-center gap-[0.5rem]'>
-            <Image src={checkmark} className='w-[1rem]'></Image>Decentralized
-            applications
+            <Image src={checkmark} className='w-[1rem]' alt='checkmark'></Image>
+            Decentralized applications
           </li>
         </ul>
       </div>
