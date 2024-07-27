@@ -4,6 +4,7 @@ import Tier2 from './components/Tier2';
 import Tier3 from './components/Tier3';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import SearchBar from './components/SearchBar';
 
 export default function Home() {
   useGSAP(() => {
@@ -30,6 +31,7 @@ export default function Home() {
         <Tier2 />
         <Tier3 />
       </section>
+      <SearchBar />
     </main>
   );
 }
